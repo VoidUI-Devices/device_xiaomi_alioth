@@ -21,6 +21,10 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP  := true
 
+# VoidUI Maintainer Flags
+VOID_MAINTAINER := johnmart19
+CUSTOM_BUILD_TYPE := OFFICIAL
+
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
