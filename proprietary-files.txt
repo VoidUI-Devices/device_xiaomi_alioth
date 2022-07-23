@@ -85,6 +85,7 @@ vendor/firmware/spk1_playback_delta.txt
 vendor/firmware/spk1_voice_delta.txt
 vendor/firmware/spk2_playback_delta.txt
 vendor/firmware/spk2_voice_delta.txt
+vendor/firmware/wlanmdsp.otaupdate
 
 # Camera
 vendor/lib64/camera/com.qti.actuator.alioth_dw9800.so
