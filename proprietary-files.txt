@@ -58,7 +58,6 @@ vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libfcsam.so
 vendor/lib/libresampler.so
-vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 
 # Audio Hal IMPL
 vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
