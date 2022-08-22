@@ -27,6 +27,7 @@ CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Updatable APEX
 TARGET_SHIP_PREBUILT_APEX := true
+TARGET_INCLUDE_CARRIER_SETTINGS := true
 $(call inherit-product-if-exists, vendor/pixel-additional/config.mk)
 
 # Inherit from alioth device
