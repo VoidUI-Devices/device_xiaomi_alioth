@@ -25,6 +25,10 @@ TARGET_SUPPORTS_QUICK_TAP  := true
 VOID_MAINTAINER := johnmart19
 CUSTOM_BUILD_TYPE := OFFICIAL
 
+# Updatable APEX
+TARGET_SHIP_PREBUILT_APEX := true
+$(call inherit-product-if-exists, vendor/pixel-additional/config.mk)
+
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
