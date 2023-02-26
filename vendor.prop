@@ -32,3 +32,6 @@ ro.vendor.audio.zoom.type=1
 # Display
 ro.vendor.display.paneltype=2
 vendor.display.defer_fps_frame_count=2
+
+# TouchFeature
+ro.vendor.touchfeature.type=43
