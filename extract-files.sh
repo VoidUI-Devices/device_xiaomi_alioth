@@ -19,6 +19,9 @@ EOF
         vendor/lib64/camera/components/com.mi.node.watermark.so)
             "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
             ;;
+        vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service | vendor/lib*/libstagefrightdolby.so | vendor/lib*/libstagefright_soft_*.so | vendor/lib*/libdlbdsservice.so)
+            "${PATCHELF}" --add-needed "libstagefright_foundation-v33-dolby.so" "${2}"
+            ;;
     esac
 }
 
