@@ -390,8 +390,8 @@ vendor/etc/qdcm_calib_data_xiaomi_38_08_0a_cmd_mode_dsc_dsi_panel.xml
 system_ext/etc/sysconfig/config-com.dolby.daxappui.xml|fce084b5ea52db53d25a7bbf64d8c7ce
 system_ext/etc/sysconfig/config-com.dolby.daxservice.xml|cd1424d569038a393fccadb457c930c2
 system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml|3d8dfe8008f667cf2b3572983c08c3af
-system_ext/priv-app/DaxUI/DaxUI.apk|feae263be94cabae10ade62f50fb7051
-system_ext/priv-app/daxService/daxService.apk|2e2c5f6939d7545c7f59fa2b15deb727
+system_ext/priv-app/DaxUI/DaxUI.apk|e176f7b5663cf6292ac3cac61d7f1ce1
+system_ext/priv-app/daxService/daxService.apk|493c2c391a73facb9e0dc9e8ec921705
 
 # Dolby Miui
 system/lib/vendor.dolby.hardware.dms@2.0.so
